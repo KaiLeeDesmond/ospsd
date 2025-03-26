@@ -1,0 +1,11 @@
+[project]
+name = "ospsd" 
+version = "0.1.0"
+description = "Toy Component for OSPSD HW2 "
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
