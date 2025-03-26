@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from component import OSPSD
+from src.component import OSPSD
 
 app = FastAPI()
 
