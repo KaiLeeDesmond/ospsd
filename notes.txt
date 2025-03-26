@@ -1,0 +1,34 @@
+uvicorn main:app --reload 
+
+the command above is used to run the Flask app. 
+
+pip install fastapi uvicorn is used to install fastapi.
+
+What's uvicorn though?
+
+A: it's basically a web server that communicates with FastAPI using ASGI (Async Server Gateway Interface)
+
+Okay, what's ASGI?
+
+A: It's a standard API for Python web servers that run async code. 
+
+
+Postman:
+
+Open Postman and create a new request.
+
+Set the request method to POST.
+
+Enter the URL: http://127.0.0.1:8000/process_data.
+
+In the Body section, select raw and choose JSON.
+
+Enter a JSON payload, for example:
+
+json
+{
+  "data": {
+    "key": "value"
+  }
+}
+
